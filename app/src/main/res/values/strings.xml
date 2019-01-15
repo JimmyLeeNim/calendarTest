@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CalendarTest</string>
+
+    <string name="epg_date">1 JAN 1900</string>
+    <string name="month_year">January 1900</string>
+    <string name="day_of_month">00</string>
+    <string name="button">Button</string>
+    <string name="colon_dash">: -</string>
+    <string name="player_time">00:00:00</string>
+
+    <string name="tx_030_1_sun">Sun</string>
+    <string name="tx_030_2_mon">Mon</string>
+    <string name="tx_030_3_tue">Tue</string>
+    <string name="tx_030_4_wed">Wed</string>
+    <string name="tx_030_5_thu">Thu</string>
+    <string name="tx_030_6_fri">Fri</string>
+    <string name="tx_030_7_sat">Sat</string>
+    <string name="tx_030_8_jan">Jan</string>
+    <string name="tx_030_9_feb">Feb</string>
+    <string name="tx_030_10_mar">Mar</string>
+    <string name="tx_030_11_apr">Apr</string>
+    <string name="tx_030_12_may">May</string>
+    <string name="tx_030_13_jun">Jun</string>
+    <string name="tx_030_14_jul">Jul</string>
+    <string name="tx_030_15_aug">Aug</string>
+    <string name="tx_030_16_sep">Sep</string>
+    <string name="tx_030_17_oct">Oct</string>
+    <string name="tx_030_18_nov">Nov</string>
+    <string name="tx_030_19_dec">Dec</string>
+</resources>

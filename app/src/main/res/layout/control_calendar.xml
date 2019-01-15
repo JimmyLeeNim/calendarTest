@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Calendar Header -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/prev_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/btn_calendar_prev" />
+
+            <TextView
+                android:id="@+id/header"
+                style="@style/calendar_header_text"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/month_year" />
+
+            <ImageView
+                android:id="@+id/next_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/btn_calendar_next" />
+        </LinearLayout>
+
+        <!-- days of week -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_1_sun" />
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_2_mon" />
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_3_tue" />
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_4_wed" />
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_5_thu" />
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_6_fri" />
+
+            <TextView
+                style="@style/calendar_days_of_week"
+                android:text="@string/tx_030_7_sat" />
+
+        </LinearLayout>
+
+        <!-- days of month -->
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="7.5dp"
+            android:columnWidth="39dp"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@drawable/xml_selector_calendar_item"
+            android:numColumns="7"
+            android:stretchMode="none" />
+    </LinearLayout>
+</merge>
